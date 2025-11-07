@@ -43,10 +43,10 @@ Texto a verificar: (texto seleccionado)
 
 ## Instalación
 
-1. Descarga la extensión en esta misma página (botón verde "Code" > Download zip).
-2. Abre Firefox y selecciona el menú "Extensiones y temas", o bien abre una pestaña nueva y navega a `about:addons`.
-3. En el menú herramientas de las extensiones (rueda dentada) selecciona "Instalar complemento desde el fichero".
-4. Selecciona el fichero zip descargado en el punto 1.
+1. Descarga la extensión en esta misma página (botón verde "Code" > Download zip) y descomprime la carpeta.
+2. Abre Firefox y ve a `about:debugging` y pincha en "Este Firefox".
+3. Haz clic en "Cargar complemento temporal".
+4. Selecciona cualquier fichero de la carpeta descargada y descomprimida en el punto 1.
 5. La extensión estará lista para usar.
 
 ## Archivos
