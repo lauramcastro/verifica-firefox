@@ -28,5 +28,13 @@
         "content.js"
       ]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "verifica-firefox@udc.gal",
+      "data_collection_permissions": {
+         "required": ["none"]
+      }
+    }
+  }
 }
