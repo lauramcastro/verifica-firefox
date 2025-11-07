@@ -45,9 +45,9 @@ Texto a verificar: (texto seleccionado)
 
 1. Descarga la extensión en esta misma página (botón verde "Code" > Download zip).
 2. Abre Firefox y selecciona el menú "Extensiones y temas", o bien abre una pestaña nueva y navega a `about:addons`.
-4. En el menú herramientas de las extensiones (rueda dentada) selecciona "Instalar complemento desde el fichero".
-5. Selecciona el fichero zip descargado en el punto 1).
-6. La extensión estará lista para usar.
+3. En el menú herramientas de las extensiones (rueda dentada) selecciona "Instalar complemento desde el fichero".
+4. Selecciona el fichero zip descargado en el punto 1.
+5. La extensión estará lista para usar.
 
 ## Archivos
 
