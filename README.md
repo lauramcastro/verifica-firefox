@@ -1,6 +1,9 @@
 # Verificador Multi-IA
 
-Extensión de Chrome que permite verificar información seleccionada enviándola a ChatGPT, Grok y Mistral con un prompt profesional que incluye perspectiva de género y análisis de sesgos
+Extensión de Firefox que permite verificar información seleccionada enviándola a ChatGPT, Grok y Mistral con un prompt profesional que incluye perspectiva de género y análisis de sesgos
+
+Esta extensión se deriva de la [originalmente diseñada para Chrome](https://github.com/xabimr/verifica-chrome) y se mantiene sincronizada con ella.
+
 
 ## Funcionalidad
 
@@ -40,12 +43,11 @@ Texto a verificar: (texto seleccionado)
 
 ## Instalación
 
-1. Descarga la extensión (code > donwload zip) y descomprime la carpeta.
-2. Abre Chrome y ve a `chrome://extensions/`
-3. Activa el "Modo de desarrollador" en la esquina superior derecha
-4. Haz clic en "Cargar extensión sin empaquetar"
-5. Selecciona la carpeta que contiene estos archivos (descargada en el punto 1)
-6. La extensión estará lista para usar
+1. Descarga la extensión en esta misma página (botón verde "Code" > Download zip).
+2. Abre Firefox y selecciona el menú "Extensiones y temas", o bien abre una pestaña nueva y navega a `about:addons`.
+4. En el menú herramientas de las extensiones (rueda dentada) selecciona "Instalar complemento desde el fichero".
+5. Selecciona el fichero zip descargado en el punto 1).
+6. La extensión estará lista para usar.
 
 ## Archivos
 
@@ -53,20 +55,19 @@ Texto a verificar: (texto seleccionado)
 - `background.js`: Lógica principal y manejo del menú contextual
 - `content.js`: Script de contenido (mínimo por ahora)
 - `README.md`: Este archivo de documentación
+- `LICENSE`: Licencia software
 
 ## Videodemostración de uso
 
 [<img src="images/video_thumbnail.jpg" alt="Ver demostración en Loom" width="700"><br><sub>Ver demostración en Loom</sub>](https://www.loom.com/share/8055c37ae30a47718a75c2c2270d1aa6)
 
-
 ## Créditos
 Como citar este trabajo:
-Martínez Rolán, L. X., Dafonte Gómez, A., Míguez González, M. I., Corbacho Valencia, J. M.,  Piñeiro Otero, T., Castro Souto, L. M., & Padilla Castillo, G. (2025, 29 outubro). Verificador Multi-IA (verifica-chrome [Repositorio en GitHub; extensión de Chrome]). GitHub. https://github.com/xabimr/verifica-chrome
-
+Martínez Rolán, L. X., Dafonte Gómez, A., Míguez González, M. I., Corbacho Valencia, J. M.,  Piñeiro Otero, T., Castro Souto, L. M., & Padilla Castillo, G. (2025). Verificador Multi-IA (verifica-firefox [Repositorio en GitHub; extensión de Firefox]). GitHub. https://github.com/lauramastro/verifica-firefox
 
 Proyecto financiado por la Cátedra de Feminismos 4.0 DEPO - Uvigo.
 ![Logo Verificador Multi-IA](images/logos.png)
 
 ## Licencia
-Este proyecto está bajo la licencia [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).  
+Este proyecto está bajo la licencia [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 ![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)
