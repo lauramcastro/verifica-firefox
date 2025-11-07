@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Verificador Multi-IA",
   "version": "0.4",
   "description": "Verifica información seleccionada con múltiples IAs: Grok, ChatGPT, Claude, Mistral, DeepSeek y Gemini",
@@ -16,7 +16,8 @@
     "https://gemini.google.com/*"
   ],
   "background": {
-    "service_worker": "background.js"
+    "scripts": ["background.js"],
+    "persistent": false
   },
   "content_scripts": [
     {
